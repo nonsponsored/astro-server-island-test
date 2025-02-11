@@ -4,7 +4,7 @@ import netlify from "@astrojs/netlify";
 import node from "@astrojs/node";
 
 export default defineConfig({
-    adapter: netlify(),
-    //adapter: node({ mode: 'standalone' }),
+    //adapter: netlify(),
+    adapter: node({ mode: 'standalone' }),
     output: 'static'
 });
