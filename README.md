@@ -4,7 +4,7 @@ This code tests a basic Astro Server Island, in conjuction with the Netlify and 
 
 ## Issue
 
-When using the Netlify adapter and setting `output: 'static'`, the content doesn't update on page refresh. With `output: 'hybrid'` no longer being valid, seems like  needs to be supported. The Node adapter works as intended with `output: 'static'`.
+When using the Netlify adapter and setting `output: 'static'`, the content doesn't update on page refresh. With `output: 'hybrid'` no longer being valid, seems like `output: 'static'` needs to be supported. The Node adapter works as intended with `output: 'static'`.
 
 **Update 2025-02-20:** Issue still replicable in Astro 5.3.0 and @astrojs/netlify 6.2.0.
 
